@@ -3,50 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ポートフォリオ</title>
+    <title>My Portforio</title>
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Kawamoto Keito's Portfolio</h1>
-      <p>関西地域のメカトロ系学科の高専生(19歳)です。
-         <BR>高専4年生でハンドボール部に所属しています。</BR></p>
-
-      <h2>Works</h2>
-
-      <h3>2023年: ロボットハンドの設計製作</h3>
-      <p>
-        3年次に「<strong>自律走行ロボットの開発プロジェクト</strong>」に取り組みました。
+      <h1>My Portfolio</h1>
+      <h2>自己紹介</h2>
+      <div class="image-wrapper">
+            <img src="kao.jpg" alt="description" class="oval-photo">
+        </div>
+      <p class="center">大阪府出身の高専4年生です。メカトロ系学科に所属しています。
+        <BR>趣味は球技系のスポーツです。プレーはもちろん、観戦も好きです。</BR>
+        小中学校では野球をし、高専からは<a href="https://ja.wikipedia.org/wiki/ハンドボール">ハンドボール</a>をしています。
       </p>
-      <p>
-        具体的には超音波センサ（検知範囲:5-100cm）を用いた障害物回避システムを搭載した「キャタピラ型走行ロボット」をクラスメイト4名とチームを組んで、要件定義から完成まで約16週間かけて取り組みました。自分は、Fusion
-        360（3次元CAD）を用いた機械設計を担当し、シャーシやマウント類など計127個の部品を設計しました（加工も共同で担当しました）。また、制御系の補助として、Arduino
-        で動かす自律制御プログラムの実装とテスト、調整も担当しました。。
-      </p>
+
+      <h2>成果物</h2>
+      <ol>
+        <h3>
+          <li>直流安定化電源の製作</li>
+        </h3>
+        <p>高専1年次に直流安定化電源の製作を行いました。これは1年生での実習で製作しました。期間は18時間です。基板の作成、コードのはんだ付け、外を覆うアルミニウム合金の加工まで行いました。
+        </p>
+        <div class="img-2col-container">
+          <div>
+            <img src="dengen.jpg" />
+          </div>
+        </div>
+        
+        <BR></BR>
+        
+        <h3>
+          <li>自律走行ロボット</li>
+        </h3>
+        <p>高専3年次に自律走行ロボットを3次元CADを用いて製作しました。期間はおよそ20時間です。これはFusion360を使用して製作しました。
+        </p>
+      </ol>
       <div class="img-2col-container">
         <div>
-          <img src="work-01.jpg" />
-        </div>
-        <div>
-          <img src="work-02.jpg" />
+          <img src="arm-all.2.jpg" />
         </div>
       </div>
       
-      <h3>2023年: 回路の設計製作</h3>
+      <BR></BR>
 
       <h2>基礎研究</h2>
-      <p>
-       取り組み期間…約６か月
-        <BR>授業やクラブ活動、文化祭活動、趣味を含めて利用経験のあるハードウェアやソフトウェアの一覧です。習熟度の目安として累積使用時間が10時間以上のものを「★」、30時間以上を「★★」、100時間以上を「★★★」と表記しています。</BR>
-      </p>
       <ul>
-        <li>Fusion 360（3D-CAD）</li>
-        <li>汎用旋盤</li>
-        <li>ボール盤</li>
+        <h3>
+          <li>プロジェクト概要</li>
+        </h3>
+        <p>寿司の皿を掴んでお客様に寿司を提供するロボットハンドの製作を行いました。今回は某<a href="https://ja.wikipedia.org/wiki/スーパーマリオブラザーズ">任天堂スーパーマリオブラザーズ</a>に登場するパックンフラワーをハンドのデザインの参考にしました。
+        <ul>
+           <li>人数…6人</li>
+           <li>取り組み期間…約7ヶ月</li>
+           <li>役割…機械</li>
+        </ul>
+        </p>
+        <h3>
+          <li>成果物</li>
+        </h3>
+        <p><strong><班></strong>
+        <BR></BR>
+        これは班員6人で製作したロボットハンドの完成品となります。
+        <div class="img-2col-container">
+          <div>
+            <img src="kisoken-han.1.jpg" />
+          </div>
+        </div>
+        <strong><個人></strong>
+        <BR></BR>
+        私の担当はパックンフラワー開閉機構を担う<strong>サーボモータ周辺の設計</strong>を行いました。これも自律走行ロボットと同様にFusion360を用いて製作し、3Dプリントしました。
+        </p>
+        <div class="img-2col-container">
+          <div>
+            <img src="kisoken-hand.jpg" />
+          </div>
+        </div>
+      </ul>
+      
+      <BR></BR>
+      
+      <h2>経験・スキル</h2>
+      <p>
+      経験したことがあり、自分のスキルとなっているものです。
+      </p>
+      <ol>
+      <h3>
+      <li>工作機械</li>
+      </h3>
+      <ul>
+        <li>卓上ボール盤</li>
         <li>フライス盤</li>
-        <li>Arduino</li>
-        <li>電子工作（ブレッドボード）</li>
-        <li>Python</li>
+        <li>旋盤</li>
+      </ul>
+      <h3>
+      <li>CADソフト</li>
+      </h3>
+      <ul>
+        <li>Fusion360</li>
+        <li>Creo</li>
+        <li>KiCAD</li>
+      </ul>
+      <h3>
+      <li>ソフトウェアサービス</li>
+      </h3>
+      <ul>
+        <li>Word</li>
+        <li>Excel</li>
+        <li>PowerPoint</li>
       </ul>
     </div>
   </body>
